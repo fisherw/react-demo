@@ -1,0 +1,8 @@
+body {
+    background: #f1ede4;
+}
+
+.active {
+    color: red;
+    font-weight: bold;
+}
