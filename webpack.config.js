@@ -8,7 +8,8 @@ module.exports = {
         'state': './entry/state.js',
         'redux': './entry/redux.js',
         'route': './entry/route.js',
-        'redux-route': './entry/redux-route.js'
+        'redux-route': './entry/redux-route.js',
+        'redux-route-async': './entry/redux-route-async.js'
     },
     output: {
         path: 'public',

@@ -89,5 +89,20 @@ app.get('/test_redux_route/*', function (req, res, next) {
     });
 });
 
+app.get('/test_redux_route_async/*', function (req, res, next) {
+    res.render('home', {
+        page: 'redux-route-async'
+    });
+});
+
+
+
+app.get('/api/redux_async_action/title', function (req, res, next) {
+    res.set('Content-Type', 'application/json');
+    res.send(JSON.stringify({
+        title: new Date().toString()
+    }));
+});
+
 // 开启服务
 app.listen.apply(app, serverOptions);

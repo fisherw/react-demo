@@ -18,3 +18,6 @@ react + redux示例
 
 #redux-route
 react + react-router + redux示例
+
+#redux-route-async
+react + react-router + redux + async action示例
