@@ -36,7 +36,7 @@
     "resolve-url-loader": "^1.4.4",
     "sass-loader": "^4.0.0",
     "style-loader": "^0.13.1",
-    "superagent": "^2.2.0",
+    "superagent": "^3.8.3",
     "uglify-js": "^2.6.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.1"
